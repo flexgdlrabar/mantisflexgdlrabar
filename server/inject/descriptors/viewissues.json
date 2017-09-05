@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "viewissueslink": {
+      "type": "action",
+      "selectContains": "View Issues"
+    }
+  },
+  "connect": []
+}
