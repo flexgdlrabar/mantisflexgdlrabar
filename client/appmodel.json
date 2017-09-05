@@ -81,9 +81,22 @@
   "viewissues": {
     "type": "object",
     "properties": {
-      "viewissueslink": {
-        "type": "action",
-        "selectContains": "View Issues"
+      "issuelist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "summary": {
+              "type": "string"
+            },
+            "severity": {
+              "type": "string"
+            }
+          }
+        }
       }
     }
   }
