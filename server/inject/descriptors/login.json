@@ -53,7 +53,10 @@
       "control": "action.button"
     },
     "isLogin": {
-      "type": "identifier"
+      "type": "identifier",
+      "selector": ".form-title",
+      "selectContains": "Login",
+      "control": "exists"
     }
   },
   "connect": []
