@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isFirstView": {
+      "type": "identifier",
+      "selector": ".subtle[href]",
+      "control": "exists",
+      "selectContains": "Assigned to Me (Unresolved)"
+    }
+  },
+  "connect": []
+}
