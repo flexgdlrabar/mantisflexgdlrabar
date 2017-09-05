@@ -30,9 +30,9 @@
     },
     "isViewIssues": {
       "type": "identifier",
-      "selector": ".form-title > span",
       "control": "exists",
-      "selectContains": "Viewing Issues"
+      "selectContains": "Viewing Issues",
+      "selector": ".floatleft"
     }
   },
   "connect": []
