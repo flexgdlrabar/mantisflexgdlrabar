@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "bb511361",
   "uiCommonVersion": "5.1.2",
-  "creatorId": "gdlrabar"
+  "creatorId": "gdlrabar",
+  "id": "mantisflexgdlrabar",
+  "previewImageURL": "/previews/bb511361-mantisflexgdlrabar/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/flexgdlrabar/mantisflexgdlrabar",
+  "creatorName": "Roberto Abarca"
 }
