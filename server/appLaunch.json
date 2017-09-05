@@ -1,0 +1,17 @@
+{
+  "remoteAppConfig": {
+    "loginType": "process",
+    "cmd": "node",
+    "args": [
+      "<%= transformAppsDir %>/mantisflexgdlrabar/server/start.js",
+      "--sessionID",
+      ":sessionID"
+    ]
+  },
+  "appData": {
+    "appType": "local",
+    "appZip": "<%= staticStorage %>mantisflexgdlrabar/client.zip",
+    "sessionCheck": false,
+    "smartuxApp": "<%= staticStorage %>mantisflexgdlrabar/smartuxApp.json"
+  }
+}
