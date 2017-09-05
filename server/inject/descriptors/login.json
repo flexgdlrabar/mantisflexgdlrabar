@@ -32,12 +32,11 @@
       "update": {
         "type": "none"
       },
-      "selector": "body > div:nth-child(3) > font",
       "control": "property.innerText",
       "frameSelector": [
         null
       ],
-      "selectContains": "Your account may be disabled or blocked or the username/password you entered is incorrect"
+      "selector": "font"
     },
     "submit": {
       "type": "action",
