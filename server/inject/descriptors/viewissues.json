@@ -1,9 +1,29 @@
 {
   "type": "object",
   "properties": {
-    "viewissueslink": {
-      "type": "action",
-      "selectContains": "View Issues"
+    "issuelist": {
+      "type": "array",
+      "selectorAll": "body",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "selector": "body",
+            "control": "property.innerText"
+          },
+          "summary": {
+            "type": "string",
+            "selector": "body",
+            "control": "property.innerText"
+          },
+          "severity": {
+            "type": "string",
+            "selector": "body",
+            "control": "property.innerText"
+          }
+        }
+      }
     }
   },
   "connect": []
