@@ -1,1 +1,19 @@
-{}
+{
+  "issueslist": [
+    {
+      "id": "000001",
+      "severity": "Low",
+      "summary": "This issue is very particular, I like it."
+    },
+    {
+      "id": "000002",
+      "severity": "Medium",
+      "summary": "Ok, this is getting weird..."
+    },
+    {
+      "id": "000003",
+      "severity": "High",
+      "summary": "Run for your life!"
+    }
+  ]
+}
