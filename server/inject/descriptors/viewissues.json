@@ -27,6 +27,12 @@
           }
         }
       }
+    },
+    "isViewIssues": {
+      "type": "identifier",
+      "selector": ".form-title > span",
+      "control": "exists",
+      "selectContains": "Viewing Issues"
     }
   },
   "connect": []
