@@ -32,7 +32,7 @@
       "update": {
         "type": "none"
       },
-      "selector": "body > div:nth-child(3) > font",
+      "selector": "font",
       "control": "property.innerText",
       "frameSelector": [
         null
@@ -53,9 +53,7 @@
       "control": "action.button"
     },
     "isLogin": {
-      "type": "identifier",
-      "selector": "font",
-      "control": "property.innerText"
+      "type": "identifier"
     }
   },
   "connect": []
