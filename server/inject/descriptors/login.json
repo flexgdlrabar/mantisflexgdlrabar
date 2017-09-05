@@ -31,7 +31,12 @@
       "label": "errorMessage",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "font[color=\"red\"]:nth-of-type(1)",
+      "control": "text",
+      "frameSelector": [
+        null
+      ]
     },
     "submit": {
       "type": "action",
@@ -42,7 +47,9 @@
         "password": {
           "type": "string"
         }
-      }
+      },
+      "selector": ".button[value=\"Login\"]",
+      "control": "action.button"
     }
   },
   "connect": []
