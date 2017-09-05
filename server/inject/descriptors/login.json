@@ -36,7 +36,8 @@
       "frameSelector": [
         null
       ],
-      "selector": "font"
+      "selector": "font",
+      "selectContains": "Your account may be disabled or blocked or the username/password you entered is incorrect"
     },
     "submit": {
       "type": "action",
@@ -58,5 +59,14 @@
       "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isLogin"
+      ],
+      "screens": [
+        "login"
+      ]
+    }
+  ]
 }
