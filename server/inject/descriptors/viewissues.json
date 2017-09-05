@@ -35,5 +35,14 @@
       "selector": ".form-title"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isViewIssues"
+      ],
+      "screens": [
+        "viewissues"
+      ]
+    }
+  ]
 }
