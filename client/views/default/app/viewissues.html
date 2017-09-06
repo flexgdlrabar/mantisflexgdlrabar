@@ -67,15 +67,28 @@
                 <div class="col" data-comp-id="column.10">
                     <div data-comp-id="text.7" ng-bind="item.id">Some text</div>
                 </div>
-                <div class="col" data-comp-id="column.12">
+                <div class="col" data-comp-id="column.11">
                     <div data-comp-id="text.8" ng-bind="item.severity">Some text</div>
                 </div>
             </div>
             <div class="row" data-comp-id="row.7">
-                <div class="col" data-comp-id="column.11">
+                <div class="col" data-comp-id="column.12">
                     <div data-comp-id="text.9" ng-bind="item.summary">Some text</div>
                 </div>
             </div>
         </div>
     </ion-content>
+    <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
+        dynamic-floating-footer="">
+        <div class="row" data-comp-id="row.8" style="padding: 0px;">
+            <div class="col text-right" data-comp-id="column.15" style="padding: 0px;">
+                <div class="footer-button" data-comp-id="footerButton.3">
+                    <button
+                        class="button icon ion-plus-round button-round button-shadowed button-energized"
+                        ng-click="app.go('app.reportissue')"></button>
+                    <div class="label"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </ion-view>
