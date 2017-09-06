@@ -10,15 +10,17 @@
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
         <div data-comp-id="div.1">
-            <select-list data-comp-id="selectList.1" label-class=" required">Category</select-list>
-            <select-list data-comp-id="selectList.2" label-class=" required">Severity</select-list>
+            <select-list data-comp-id="selectList.1" label-class=" required"
+                ng-model="data.category">Category</select-list>
+            <select-list data-comp-id="selectList.2" label-class=" required"
+                ng-model="data.severity">Severity</select-list>
             <label class="item item-input" data-comp-id="textInput.1">
                 <span class="input-label required">Equipment Asset</span>
-                <input type="text">
+                <input ng-model="data.equipment" type="text">
             </label>
             <label class="item item-input item-stacked-label" data-comp-id="textAreaInput.1">
                 <span class="input-label required">Description</span>
-                <textarea rows="4"></textarea>
+                <textarea ng-model="data.description" rows="4"></textarea>
             </label>
             <div data-comp-id="text.1"></div>
         </div>
