@@ -109,6 +109,9 @@
         "update": {
           "type": "none"
         }
+      },
+      "reportissueopen": {
+        "type": "action"
       }
     }
   },
