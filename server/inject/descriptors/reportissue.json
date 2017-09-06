@@ -12,17 +12,21 @@
       "selector": "[name=\"severity\"]",
       "control": "select"
     },
-    "equipment": {
-      "type": "string"
-    },
     "description": {
-      "type": "string"
+      "type": "string",
+      "selector": "[name=\"description\"]",
+      "control": "text"
     },
     "isReportIssue": {
       "type": "string",
       "selector": ".form-title",
       "control": "exists",
       "selectContains": "Enter Report Details"
+    },
+    "summary": {
+      "type": "string",
+      "selector": "[name=\"summary\"]",
+      "control": "text"
     }
   },
   "connect": []
