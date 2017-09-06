@@ -133,6 +133,9 @@
       },
       "submitreport": {
         "type": "action"
+      },
+      "viewissuesopen": {
+        "type": "action"
       }
     }
   }
