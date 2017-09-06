@@ -127,6 +127,9 @@
       },
       "summary": {
         "type": "string"
+      },
+      "submitreport": {
+        "type": "action"
       }
     }
   }
