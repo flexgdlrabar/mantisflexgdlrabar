@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "comment": "Report Issue",
+  "properties": {
+    "category": {
+      "type": "select"
+    },
+    "severity": {
+      "type": "select"
+    },
+    "equipment": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "isReportIssue": {
+      "type": "string",
+      "selector": ".form-title",
+      "control": "exists",
+      "selectContains": "Enter Report Details"
+    }
+  },
+  "connect": []
+}
