@@ -33,6 +33,12 @@
       "control": "exists",
       "selectContains": "Viewing Issues",
       "selector": ".form-title"
+    },
+    "reportissueopen": {
+      "type": "action",
+      "selector": "a",
+      "control": "action.link",
+      "selectContains": "Report Issue"
     }
   },
   "connect": [
