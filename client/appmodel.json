@@ -122,10 +122,10 @@
       "severity": {
         "type": "select"
       },
-      "equipment": {
+      "description": {
         "type": "string"
       },
-      "description": {
+      "summary": {
         "type": "string"
       }
     }
