@@ -8,7 +8,9 @@
       "control": "select"
     },
     "severity": {
-      "type": "select"
+      "type": "select",
+      "selector": "[name=\"severity\"]",
+      "control": "select"
     },
     "equipment": {
       "type": "string"
