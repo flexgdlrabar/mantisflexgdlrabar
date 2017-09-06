@@ -18,7 +18,7 @@
       "control": "text"
     },
     "isReportIssue": {
-      "type": "string",
+      "type": "identifier",
       "selector": ".form-title",
       "control": "exists",
       "selectContains": "Enter Report Details"
@@ -36,7 +36,9 @@
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "isReportIssue"
+      ],
       "screens": [
         "reportissue"
       ]
