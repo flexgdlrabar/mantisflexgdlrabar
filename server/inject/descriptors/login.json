@@ -36,7 +36,7 @@
       "frameSelector": [
         null
       ],
-      "selector": "font:nth-of-type(1)"
+      "selector": "body > div:nth-child(3) > font"
     },
     "submit": {
       "type": "action",
