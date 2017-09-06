@@ -138,14 +138,5 @@
         "type": "action"
       }
     }
-  },
-  "app": {
-    "type": "object",
-    "comment": "Application",
-    "properties": {
-      "logout": {
-        "type": "action"
-      }
-    }
   }
 }
