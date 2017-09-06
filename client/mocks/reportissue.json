@@ -1,1 +1,89 @@
-{}
+{
+ "category": {
+  "selected": {
+   "label": "[All Projects] Cardiology",
+   "value": "3"
+  },
+  "options": [
+   {
+    "label": "(select)",
+    "value": "0"
+   },
+   {
+    "label": "[All Projects] Cardiology",
+    "value": "3"
+   },
+   {
+    "label": "[All Projects] Dermatology",
+    "value": "8"
+   },
+   {
+    "label": "[All Projects] General",
+    "value": "1"
+   },
+   {
+    "label": "[All Projects] Neurology",
+    "value": "5"
+   },
+   {
+    "label": "[All Projects] Orthopedics",
+    "value": "7"
+   },
+   {
+    "label": "[All Projects] Physical Therapy Center",
+    "value": "6"
+   },
+   {
+    "label": "[All Projects] Project2",
+    "value": "2"
+   },
+   {
+    "label": "[All Projects] Pulmonary Center",
+    "value": "4"
+   }
+  ]
+ },
+ "severity": {
+  "selected": {
+   "label": "minor",
+   "value": "50"
+  },
+  "options": [
+   {
+    "label": "feature",
+    "value": "10"
+   },
+   {
+    "label": "trivial",
+    "value": "20"
+   },
+   {
+    "label": "text",
+    "value": "30"
+   },
+   {
+    "label": "tweak",
+    "value": "40"
+   },
+   {
+    "label": "minor",
+    "value": "50"
+   },
+   {
+    "label": "major",
+    "value": "60"
+   },
+   {
+    "label": "crash",
+    "value": "70"
+   },
+   {
+    "label": "block",
+    "value": "80"
+   }
+  ]
+ },
+ "description": "This is the description",
+ "isReportIssue": true,
+ "summary": "Testing"
+}
