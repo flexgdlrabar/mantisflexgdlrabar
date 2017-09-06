@@ -32,6 +32,12 @@
       "type": "action",
       "selector": ".button[type=\"submit\"]",
       "control": "action.button"
+    },
+    "viewissuesopen": {
+      "type": "action",
+      "selector": "a",
+      "control": "action.link",
+      "selectContains": "View Issues"
     }
   },
   "connect": [
