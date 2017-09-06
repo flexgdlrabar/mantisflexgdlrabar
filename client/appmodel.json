@@ -111,5 +111,23 @@
         }
       }
     }
+  },
+  "reportissue": {
+    "type": "object",
+    "comment": "Report Issue",
+    "properties": {
+      "category": {
+        "type": "select"
+      },
+      "severity": {
+        "type": "select"
+      },
+      "equipment": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    }
   }
 }
