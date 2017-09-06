@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "logout": {
+      "type": "action",
+      "selector": "a",
+      "control": "action.link",
+      "selectContains": "Logout"
+    }
+  },
+  "connect": []
+}
